@@ -1,3 +1,7 @@
+git add Octo25.sql
+git commit -m "Update study progress line in Octo25.sql"
+git push origin main
+
 select table_schema, table_name
 from information_schema.tables
 where table_schema = 'public'
@@ -208,7 +212,7 @@ Select name, max(salary) from emp where salary < (select max (salary) from emp);
 SELECT name, salary FROM emp WHERE salary = ( SELECT MAX( salary ) FROM emp  WHERE salary < (SELECT MAX(salary) FROM emp));
 
 
-
+a-comprehensive-study-of-sql - 236 - 93 pages completed
 
 
 
